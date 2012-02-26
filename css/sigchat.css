@@ -1,0 +1,160 @@
+/*	sigchat.css
+	~Bitcrush
+*/
+
+a:link
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:active
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover
+{
+	background-color: #777777;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#chat_tab
+{
+	background-color: #425A69;
+	font-size: 12pt;
+	font-family: 'Courier New';
+	font-weight: bold;
+	color: #FFFFFF
+}
+
+#stream_tab
+{
+	background-color: #425A69;
+	font-size: 12pt;
+	font-family: 'Courier New';
+	font-weight: bold;
+	color: #FFFFFF
+}
+
+#link:hover
+{
+	background-color: #777777;
+}
+
+#link
+{
+	height: 40px;
+}
+
+#main_table
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 1260px;
+}
+	
+#link_table
+{
+	font-family: 'Courier New';
+	font-size: 12pt;
+	width: 1260px;
+	background-color: #555555;
+	border-width: 1px;
+	border-style: dotted;
+	border-color: #425A69;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#chat_embed
+{
+	width: 310px;
+	height: 387px;
+}
+
+#live_embed_player_flash
+{
+	width: 640px;
+	height: 387px;
+	background-color: #000000;
+}
+
+*
+{
+	margin: 0;
+}
+
+html, body
+{
+	height: 100%;
+	text-align: center;
+}
+
+.wrapper
+{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -174px;
+	background-color: #000000;
+	width: 1260px;
+}
+
+div#divider
+{
+	width: 1260px;
+	height: 25px;
+}
+
+
+.push
+{
+	height: 174px;
+}
+
+.footer
+{
+	color: #FFFFFF;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 1260px;
+	height: 174px;
+	font-family: Courier;
+	font-size: 12px;
+}
+
+/*
+div#footer
+{
+	clear: both;
+	height: 142px;
+	color: #FFFFFF;
+	background-color: #668CFF;
+	font-family: Courier;
+	font-size: 12px;
+}*/
+
+div#header
+{
+	color: #FFFFFF;
+	background-color: #000000;
+	font-family: 'Courier New';
+	font-size: 20px;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1260px;
+	height: 42px;
+}
