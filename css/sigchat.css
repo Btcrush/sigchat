@@ -135,6 +135,49 @@ div#divider
 	font-size: 12px;
 }
 
+#contact
+{
+	border: 3px solid #FFFFFF;
+	position:  absolute;
+	margin-left: -300px;
+	margin-top: -250px;
+	left: 50%;
+	top: 50%;
+	width: 600px;
+	height: 345px;
+	z-index: 100;
+	color: #000000;
+	padding: 0px;
+	background-color: #ffffff;
+	display: none;
+	font-family: 'Courier New';
+	font-size: 12px;
+}
+
+#contact_title
+{
+	clear: left;
+	float: left;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding-left: 6px;
+	vertical-align: middle;
+	width: 575px;
+}
+
+#contact_input
+{
+	width: 500px;
+	padding: 5px;
+}
+
+#contact_msg
+{
+	width: 500px;
+	height: 200px;
+	padding: 5px;
+}
+
 /*
 div#footer
 {

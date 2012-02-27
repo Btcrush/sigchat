@@ -6,6 +6,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Sigchat 2.0</title> 
 <link rel="stylesheet" type="text/css" href="css/sigchat.css" />
+
+<script type="text/javascript">
+function show_contact()
+{
+	document.getElementById('contact').style.display='block';
+}
+
+function hide_contact()
+{
+	document.getElementById('contact').style.display='none';
+}
+</script>
+
 </head> 
 
 <body bgcolor="#425A69">
@@ -36,12 +49,19 @@
 <param name="allowNetworking" value="all" />
 <param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf" />
 <param name="flashvars" value="hostname=www.twitch.tv&channel=siglemic&auto_play=true&start_volume=25" />
+<param name="wmode" value="opaque"> 
 </object>
 </td>
 
 <td>
 <iframe frameborder="0" scrolling="no" id="chat_embed" src="http://twitch.tv/chat/embed?channel=siglemic&amp;popout_chat=true"></iframe>
 </td>
+</tr>
+
+<tr>
+<th id="chat_tab">&nbsp;</th>
+<th id="stream_tab">&nbsp;</th>
+<th id="chat_tab">&nbsp;</th>
 </tr>
 </table>
 
@@ -128,9 +148,59 @@
 
 </table>
 
-<br />Made by Bitcrush
+<br />Made by Bitcrush | <a href="#" onclick="show_contact()"><u>Suggest a Feature/Link</u></a>
+
 </div>
 
+<!-- contact form -->
+<div id="contact">
+
+<table cellspacing="0" style="background-color: #000000">
+<tr>
+<td>
+<div id="contact_title">
+Contact Bitcrush
+</div>
+<a href="#" onclick="hide_contact()">
+<img style="position: relative; float:right; border:1px solid #000000;" src="images/close.png" width="15" height="15" />
+</a>
+</td>
+</tr>
+</table>
+
+<br />
+
+<table cellspacing="0" style="clear:both; width: 600px">
+
+<tr>
+<td>Name:&nbsp;</td>
+<td>
+<input id="contact_input" type="text" name="c_name" maxlength="50" />
+<br />
+</td>
+</tr>
+
+<tr>
+<td>E-mail:&nbsp;</td>
+<td>
+<input id="contact_input" type="text" name="c_email" maxlength="50" />
+<br />
+</td>
+</tr>
+
+<tr>
+<td>Comment:&nbsp;</td>
+<td>
+<textarea id="contact_msg" name="c_message"></textarea>
+<br />
+</td>
+</tr>
+</table>
+
+<input type="button" value="Submit" name="c_submit" />
+<input type="button" value="Cancel" onclick="hide_contact()" name="c_cancel" />
+
+</div>
 </body>
 
 </html>
