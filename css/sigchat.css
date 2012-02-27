@@ -108,7 +108,7 @@ html, body
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -174px;
+	margin: 0 auto -134px;
 	background-color: #000000;
 	width: 1270px;
 }
@@ -122,7 +122,7 @@ div#divider
 
 .push
 {
-	height: 174px;
+	height: 134px;
 }
 
 .footer
@@ -133,7 +133,7 @@ div#divider
 	margin-right: auto;
 	display: block;
 	width: 1260px;
-	height: 174px;
+	height: 134px;
 	font-family: Courier;
 	font-size: 12px;
 }
