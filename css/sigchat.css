@@ -53,6 +53,9 @@ a:hover
 #link
 {
 	height: 40px;
+	border-style: dotted;
+	border-width: 1px;
+	border-color: #777777;
 }
 
 #main_table
